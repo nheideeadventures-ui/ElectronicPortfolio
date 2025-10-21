@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Araling Panlipunan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #e6f0ff, #fff5f8);
+      font-family: 'Quicksand', sans-serif;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+header h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #4b6cb7;
+  margin-top: 50px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.ap-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.lesson-btn {
+  display: inline-block;
+  background-color: #ffffffc9;
+  color: #3d3d3d;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #a8c6ff;
+}
+
+.lesson-btn:hover {
+  transform: scale(1.07);
+  background-color: #cfe5ff;
+  border-color: #90b6ff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.divider {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(to right, #a3cfff, #fbc3ff, #ffe5b4);
+  border-radius: 2px;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.fun-fact {
+  background: #fffadf;
+  border-left: 6px solid #ffd43b;
+  padding: 15px 20px;
+  border-radius: 12px;
+  width: 70%;
+  margin: 30px auto;
+  font-style: italic;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.floating-emoji {
+  position: absolute;
+  font-size: 24px;
+  animation: float 10s linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes float {
+  from { transform: translateY(100vh) rotate(0deg); opacity: 0.3; }
+  to { transform: translateY(-10vh) rotate(360deg); opacity: 0.7; }
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+}
+  </style>
+</head>
+
+<body>
+  <!-- floating emojis -->
+  <div class="floating-emoji" style="left:10%;">💖</div>
+  <div class="floating-emoji" style="left:30%; animation-delay:2s;">🌸</div>
+  <div class="floating-emoji" style="left:50%; animation-delay:4s;">📘</div>
+  <div class="floating-emoji" style="left:70%; animation-delay:1s;">✨</div>
+  <div class="floating-emoji" style="left:90%; animation-delay:3s;">💫</div>
+
+  <nav class="navbar">
+    <a href="index.html">🏠 Home</a>
+    <a href="personal.html">🌸 Personal Space</a>
+    <a href="ict.html">💻 ICT</a>
+    <a href="ap.html">📘 AP</a>
+  </nav>
+
+  <header>
+    <h1>📘 Araling Panlipunan Lessons</h1>
+    <p class="intro">Pindutin ang lesson na nais aralin! 💕</p>
+  </header>
+
+  <main>
+    <div class="ap-buttons">
+      <a href="lesson1.html" class="lesson-btn">Lesson 1 – Demand</a>
+      <a href="lesson2.html" class="lesson-btn">Lesson 2 – Supply</a>
+      <a href="lesson3.html" class="lesson-btn">Lesson 3 – Price Elasticity</a>
+      <a href="lesson4.html" class="lesson-btn">Lesson 4 – Market Equilibrium</a>
+      <a href="lesson5.html" class="lesson-btn">Lesson 5 – Estruktura ng Pamilihan</a>
+      <a href="lesson6.html" class="lesson-btn">Lesson 6 – Bahaging Ginagampanan ng Pamahalaan</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Made with 💖 by Nicole Kierulf</p>
+  </footer>
+</body>
+</html>
